@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.content{
+    background-color: #fff;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.content h1{
+    color: #000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-family: azonix;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    font-size: 80px;
+    text-align: center;
+}
+
+.box svg{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    list-style: none;
+    opacity: 0;
+    background: radial-gradient(deepskyblue, transparent, transparent);
+    bottom: 0;
+    left: 10vw;
+    animation: animate 15s linear infinite;
+}
+
+/* .box svg:nth-child(2){
+    left: 37vw;
+    animation-delay: 2s;
+}
+.box svg:nth-child(3) {
+    left: 25vw;
+    animation-delay: 4s;
+}
+.box svg:nth-child(4) {
+    top: 60vh;
+    animation-delay: 6s;
+}
+.box svg:nth-child(5) {
+    left: 75vw;
+    animation-delay: 4s;
+}
+.box svg:nth-child(6) {
+    left: 90vh;
+    animation-delay: 3s;
+}
+.box svg:nth-child(7) {
+    right: 50vw;
+    animation-delay: 3s;
+}
+.box svg:nth-child(8) {
+    left: 80vw;
+    animation-delay: 3s;
+}
+.box svg:nth-child(9) {
+    left: 14vw;
+    animation-delay: 3s;
+}
+.box svg:nth-child(10) {
+    left: 55vh;
+    animation-delay: 3s;
+}
+.box svg:nth-child(11) {
+    left: 65vw;
+    animation-delay: 3s;
+}
+.box svg:nth-child(12) {
+    left: 40vw;
+    animation-delay: 3s;
+}
+.box svg:nth-child(13) {
+    left: 40vw;
+    animation-delay: 3s;
+}
+.box svg:nth-child(14) {
+    left: 40vw;
+    animation-delay: 3s;
+}
+@keyframes animate {
+    0%{
+        transform: scale(0);
+        opacity: 1;
+        bottom: 0;
+    }
+    100%{
+        transform: scale(3);
+        opacity: 0;
+        bottom: 100vh;
+    }
+} */
